@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavChars" representedClassName="FavChars" syncable="YES" codeGenerationType="class">
+        <attribute name="films" attributeType="Transformable" customClassName="NSArray" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FavMovies" representedClassName="FavMovies" syncable="YES" codeGenerationType="class">
+        <attribute name="director" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="episode_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="opening_crawl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="producer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="release_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavChars" positionX="-117" positionY="81" width="128" height="90"/>
+        <element name="FavMovies" positionX="-153" positionY="27" width="128" height="135"/>
+    </elements>
+</model>
